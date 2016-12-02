@@ -10,4 +10,11 @@
 	border: 10px solid black;
 }
 
-
+.divs {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	border: none; 
+	background-color: #004657;
+	display: inline-block;
+}
