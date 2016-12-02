@@ -1,0 +1,13 @@
+#nameHeadline {
+	margin: 25px auto;
+}
+
+.wrapper {
+	width: 800px;
+	height: 800px;
+	padding: 10px;
+	margin: 0;	
+	border: 10px solid black;
+}
+
+
