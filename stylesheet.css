@@ -1,5 +1,5 @@
 #nameHeadline {
-	margin: 15px auto;
+	margin: 10px auto; 
 }
 
 .resetButton {
@@ -8,7 +8,7 @@
 
 .wrapper {
 	width: 810px;
-	height: 820px;
+	height: 810px;
 	padding: 10px;
 	margin: 0;	
 	border: 10px solid black;
