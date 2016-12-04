@@ -19,7 +19,9 @@ $(document).ready(function(){
 
 	drawGrid(height,width);
 
-
+	$('.squares').click(function() {
+		$(this).css('background-color','blue');
+});
    /*$(".divTable").click(function(){
         $(".divTable").hide();
    });*/
