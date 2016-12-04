@@ -10,11 +10,13 @@
 	border: 10px solid black;
 }
 
-.divs {
-	width: 400px;
-	height: 400px;
-	margin: 0 auto;
-	border: none; 
-	background-color: #004657;
-	display: inline-block;
+.container {
+	border-style: solid;
+    	border-color: #5d0296;
+    	border-width: thin;
+    	display: table;
+    	margin: 0 auto;
+    	padding: 0;
+    	width: 790px;
+	height: 790px;
 }
