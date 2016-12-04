@@ -26,3 +26,7 @@ $(document).ready(function(){
         $(".divTable").hide();
    });*/
 });
+
+function resetButton(){
+	location.reload(true);	
+};

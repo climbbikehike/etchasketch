@@ -1,5 +1,9 @@
 #nameHeadline {
-	margin: 25px auto;
+	margin: 15px auto;
+}
+
+.resetButton {
+	margin: 10px;
 }
 
 .wrapper {
