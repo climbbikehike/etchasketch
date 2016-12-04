@@ -21,14 +21,14 @@
 	background-color: white; 
     	display: table;
     	margin: 0 auto;
-    	padding: 10;
-    	width: 790px;
-	height: 790px;
+    	padding: 0;
+    	width: 800px;
+	height: 800px;
 }
 
 .gridRows {
 	display: table-row;
-	width: 790;
+	width: 600;
 	margin: 0;
 	padding: 0;	
 }

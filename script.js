@@ -5,9 +5,10 @@ function drawGrid (height, width){
    			$('<div>').addClass('gridRows').appendTo(".container");
    		};
     
-    	var squareWidth = 790/width;
+    	var squareWidth = 600/width;
+	var squareHeight = 600/height;
     	for (j=0; j < width; j++){
-    		$('<div>').addClass('squares').css("width",squareWidth).css("height",squareWidth).appendTo(".gridRows");	
+    		$('<div>').addClass('squares').css("width",squareWidth).css("height",squareHeight).appendTo(".gridRows");	
 		};
 
 }
@@ -25,6 +26,15 @@ $(document).ready(function(){
   
 });
 
-function resetButton(){
-	location.reload(true);	
+function resetButton() {
+	$('.gridRows').remove();
+	$('.squares').remove();
+	var squareCount = prompt("How many squares would you like?");
+	var height = squareCount;
+	var width = squareCount; 
+
+	drawGrid(height, width);
 };
+/*function resetButton(){
+	location.reload(true);	
+};*/
