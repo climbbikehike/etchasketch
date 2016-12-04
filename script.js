@@ -1,9 +1,15 @@
-function drawGrid(height,width) {
-	//var singleDiv = document.createElement('div');
 
-	for (i=0; i < height; i++) {
-		$('<div>').appendTo('.container');
-	};
+function drawGrid (height, width){
+
+		for (i=0; i < height; i++){
+   			$('<div>').addClass('gridRows').appendTo(".container");
+   		};
+    
+    	var squareWidth = 790/width;
+    	for (j=0; j < width; j++){
+    		$('<div>').addClass('squares').css("width",squareWidth).css("height",squareWidth).appendTo(".gridRows");	
+		};
+
 }
 
 

@@ -3,8 +3,8 @@
 }
 
 .wrapper {
-	width: 800px;
-	height: 800px;
+	width: 810px;
+	height: 820px;
 	padding: 10px;
 	margin: 0;	
 	border: 10px solid black;
@@ -16,7 +16,26 @@
     	border-width: thin;
     	display: table;
     	margin: 0 auto;
-    	padding: 0;
+    	padding: 10;
     	width: 790px;
 	height: 790px;
 }
+
+.gridRows {
+	display: table-row;
+	width: 790;
+	margin: 0;
+	padding: 0;	
+}
+
+.squares {
+	display: table-cell;
+    	background-color: white;
+    	padding: 0;
+    	margin: 0;
+    	border-style: solid;
+    	border-color: black;
+	border-width: thin;
+}
+
+
